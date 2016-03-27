@@ -3798,7 +3798,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="GND2" gate="1" x="114.3" y="15.24"/>
 <instance part="T1" gate="G$1" x="147.32" y="30.48" smashed="yes">
 <attribute name="NAME" x="152.4" y="27.94" size="1.778" layer="95"/>
-<attribute name="VALUE" x="152.4" y="25.4" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="G$1" x="162.56" y="30.48"/>
 <instance part="GND4" gate="1" x="147.32" y="15.24"/>
@@ -3825,8 +3824,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="C3" gate="G$1" x="88.9" y="58.42" rot="R90"/>
 <instance part="GND10" gate="1" x="83.82" y="55.88"/>
 <instance part="P+1" gate="VCC" x="91.44" y="68.58"/>
-<instance part="D1" gate="G$1" x="152.4" y="30.48" rot="R90"/>
-<instance part="D4" gate="G$1" x="170.18" y="30.48" rot="R90"/>
+<instance part="D1" gate="G$1" x="154.94" y="-2.54" rot="R180"/>
+<instance part="D4" gate="G$1" x="154.94" y="-15.24" rot="R180"/>
 <instance part="H5" gate="G$1" x="149.86" y="78.74"/>
 <instance part="H6" gate="G$1" x="149.86" y="73.66"/>
 <instance part="H7" gate="G$1" x="149.86" y="68.58"/>
@@ -3875,18 +3874,12 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="165.1" y1="17.78" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="165.1" y1="25.4" x2="170.18" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="25.4" x2="170.18" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="T1" gate="G$1" pin="E"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="147.32" y1="25.4" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="17.78" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="149.86" y1="25.4" x2="152.4" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="25.4" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -3939,13 +3932,19 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </segment>
 <segment>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
-<wire x1="154.94" y1="-2.54" x2="147.32" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-2.54" x2="152.4" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="152.4" y1="-2.54" x2="147.32" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="152.4" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="P+12" gate="VCC" pin="VCC"/>
-<wire x1="154.94" y1="-15.24" x2="147.32" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-15.24" x2="152.4" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="152.4" y1="-15.24" x2="147.32" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="152.4" y="-15.24"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="58.42" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
@@ -3970,26 +3969,11 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="VR" gate="G$1" pin="E"/>
-<wire x1="55.88" y1="38.1" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="17.78" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="5.08" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<junction x="55.88" y="35.56"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="VR" gate="G$1" pin="A"/>
 <wire x1="40.64" y1="38.1" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="35.56" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
-<junction x="40.64" y="35.56"/>
 </segment>
 </net>
 <net name="555_TRIG" class="0">
@@ -4007,10 +3991,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <label x="50.8" y="30.48" size="1.778" layer="95"/>
 <wire x1="60.96" y1="30.48" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
 <junction x="60.96" y="35.56"/>
 <junction x="48.26" y="30.48"/>
-<junction x="48.26" y="27.94"/>
 </segment>
 </net>
 <net name="555_DISCH" class="0">
@@ -4039,14 +4021,13 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="149.86" y1="35.56" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
 <label x="147.32" y="40.64" size="1.778" layer="95"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="149.86" y1="35.56" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="35.56" x2="152.4" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-2.54" x2="165.1" y2="-2.54" width="0.1524" layer="91"/>
 <label x="165.1" y="-2.54" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<junction x="157.48" y="-2.54"/>
 </segment>
 </net>
 <net name="LOAD2-" class="0">
@@ -4054,14 +4035,20 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="165.1" y1="35.56" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
 <label x="165.1" y="40.64" size="1.778" layer="95"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="165.1" y1="35.56" x2="170.18" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="35.56" x2="170.18" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="165.1" y1="-15.24" x2="157.48" y2="-15.24" width="0.1524" layer="91"/>
 <label x="165.1" y="-15.24" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<junction x="157.48" y="-15.24"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="VR" gate="G$1" pin="E"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="55.88" y1="38.1" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
