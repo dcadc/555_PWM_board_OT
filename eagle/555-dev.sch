@@ -3746,20 +3746,20 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </classes>
 <parts>
 <part name="IC1" library="SUC" deviceset="TLC555" device=""/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="220"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="PTH"/>
+<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="PTH" value="0.01uF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="T1" library="adafruit" deviceset="2N2222" device=""/>
 <part name="Q1" library="transistor-power" deviceset="IRF740" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="5MM-KIT"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R3-1" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W"/>
-<part name="C3-1" library="SparkFun-Passives" deviceset="CAP" device="PTH"/>
-<part name="VR3-1" library="SparkFun-Electromechanical" deviceset="POT" device="ALPS-KIT"/>
+<part name="R3-1" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
+<part name="C3-1" library="SparkFun-Passives" deviceset="CAP" device="PTH" value="0.1uF"/>
+<part name="VR3-1" library="SparkFun-Electromechanical" deviceset="POT" device="ALPS-KIT" value="50K"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="KIT"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
@@ -3775,11 +3775,11 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH1"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C3-2" library="SparkFun-Passives" deviceset="CAP" device="PTH"/>
+<part name="C3-2" library="SparkFun-Passives" deviceset="CAP" device="PTH" value="0.1uF"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="KIT"/>
-<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="KIT"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="KIT" value="1N4007"/>
+<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="KIT" value="1N4007"/>
 <part name="H5" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H6" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H7" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
@@ -3851,6 +3851,10 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="40.64" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
 <label x="137.16" y="40.64" size="1.778" layer="95"/>
+<wire x1="137.16" y1="40.64" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="137.16" y1="45.72" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="45.72" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3917,10 +3921,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="T1" gate="G$1" pin="B"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="30.48" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="144.78" y1="30.48" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="30.48" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
-<junction x="144.78" y="30.48"/>
 </segment>
 </net>
 <net name="N$9" class="0">
