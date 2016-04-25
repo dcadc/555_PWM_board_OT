@@ -7839,7 +7839,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="IC1" library="SUC" deviceset="TLC555" device="" value="NE555"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="220"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="PTH" value="0.01uF"/>
+<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="PTH1" value="0.01uF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="T1" library="adafruit" deviceset="2N2222" device=""/>
 <part name="Q1" library="transistor-power" deviceset="IRF740" device=""/>
@@ -7849,7 +7849,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="5MM-KIT"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
-<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="PTH" value="0.1uF"/>
+<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="PTH1" value="0.1uF"/>
 <part name="VR" library="SparkFun-Electromechanical" deviceset="POT" device="ALPS-KIT" value="50K"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="1N4148" value="1N4148"/>
@@ -7864,7 +7864,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH1" value="100uF"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="PTH" value="0.1uF"/>
+<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="PTH1" value="0.1uF"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="KIT" value="1N4007"/>
