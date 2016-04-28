@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -7163,124 +7163,6 @@ Big oval pads</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Sensors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="PHOTOCELL">
-<wire x1="-1" y1="2" x2="1" y2="2" width="0.2032" layer="21"/>
-<wire x1="1" y1="-2" x2="-1" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-1" y1="2" x2="-2.3" y2="0.9" width="0.2032" layer="21" curve="72.591831"/>
-<wire x1="1" y1="-2" x2="2.3" y2="-0.9" width="0.2032" layer="21" curve="72.591831"/>
-<wire x1="1" y1="2" x2="2.3" y2="0.9" width="0.2032" layer="21" curve="-72.598009"/>
-<wire x1="-1" y1="-2" x2="-2.3" y2="-0.9" width="0.2032" layer="21" curve="-72.598009"/>
-<pad name="1" x="-2" y="0" drill="0.8" diameter="1.6764"/>
-<pad name="2" x="2" y="0" drill="0.8" diameter="1.6764"/>
-<text x="-2" y="2.4" size="0.8128" layer="25">&gt;Name</text>
-<text x="-2" y="-3" size="0.8128" layer="27">&gt;Value</text>
-</package>
-<package name="PHOTOCELL-KIT">
-<description>&lt;h3&gt;PHOTOCELL-KIT&lt;/h3&gt;
-Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
-<wire x1="-1" y1="2" x2="1" y2="2" width="0.2032" layer="21"/>
-<wire x1="1" y1="-2" x2="-1" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-1" y1="-2" x2="-2.1984" y2="-1.1286" width="0.2032" layer="21" curve="-72.614209"/>
-<wire x1="1" y1="-2" x2="2.1984" y2="-1.1286" width="0.2032" layer="21" curve="72.614209"/>
-<wire x1="-1" y1="2" x2="-2.1984" y2="1.1286" width="0.2032" layer="21" curve="72.614209"/>
-<wire x1="1" y1="2" x2="2.1984" y2="1.1286" width="0.2032" layer="21" curve="-72.614209"/>
-<pad name="1" x="-2" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<pad name="2" x="2" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<text x="-2" y="2.4" size="0.8128" layer="25">&gt;Name</text>
-<text x="-2" y="-3" size="0.8128" layer="27">&gt;Value</text>
-<polygon width="0.127" layer="30">
-<vertex x="-2.0041" y="-0.9525" curve="-90"/>
-<vertex x="-2.959" y="-0.0228" curve="-90.011749"/>
-<vertex x="-2.0066" y="0.9526" curve="-90"/>
-<vertex x="-1.0566" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-2.0066" y="-0.4445" curve="-90.012891"/>
-<vertex x="-2.4511" y="-0.0203" curve="-90"/>
-<vertex x="-2.0066" y="0.447" curve="-90"/>
-<vertex x="-1.5647" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="2.0091" y="-0.9525" curve="-90"/>
-<vertex x="1.0542" y="-0.0228" curve="-90.011749"/>
-<vertex x="2.0066" y="0.9526" curve="-90"/>
-<vertex x="2.9566" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="2.0066" y="-0.4445" curve="-90.012891"/>
-<vertex x="1.5621" y="-0.0203" curve="-90"/>
-<vertex x="2.0066" y="0.447" curve="-90"/>
-<vertex x="2.4485" y="-0.0101" curve="-90.012967"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="PHOTOCELL">
-<wire x1="2.54" y1="-2.54" x2="1.524" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="-1.524" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-1.524" y1="2.54" x2="-1.524" y2="2.032" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="2.032" x2="-1.016" y2="1.524" width="0.254" layer="94" curve="90"/>
-<wire x1="-1.016" y1="1.524" x2="1.27" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.524" x2="1.27" y2="0.762" width="0.254" layer="94" curve="-180"/>
-<wire x1="-1.27" y1="0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="0.762" width="0.254" layer="94" curve="-180"/>
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-0.762" width="0.254" layer="94" curve="-180"/>
-<wire x1="-1.27" y1="-0.762" x2="1.27" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="-0.762" width="0.254" layer="94" curve="-180"/>
-<wire x1="-1.27" y1="-1.524" x2="1.016" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.032" x2="1.016" y2="-1.524" width="0.254" layer="94" curve="90"/>
-<wire x1="1.524" y1="-2.032" x2="1.524" y2="-2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="3.048" size="1.778" layer="95">&gt;Name</text>
-<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;Value</text>
-<pin name="P$1" x="-7.62" y="0" visible="off" length="short"/>
-<pin name="P$2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PHOTOCELL" prefix="R">
-<description>CdS photoresistor. This is a low cost way to detect light levels. Resistance decreases with more incoming light. SparkFun SKU: SEN-09088</description>
-<gates>
-<gate name="G$1" symbol="PHOTOCELL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="PHOTOCELL">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH-KIT" package="PHOTOCELL-KIT">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Capacitors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
@@ -7826,6 +7708,87 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </deviceset>
 </devicesets>
 </library>
+<library name="Discrete">
+<packages>
+<package name="0546/3.3">
+<wire x1="-0.635" y1="2.286" x2="-2.54" y2="0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.54" y1="0.381" x2="-2.54" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-0.381" x2="-0.635" y2="-2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="0.381" x2="0.635" y2="2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="0.635" y1="2.286" x2="-0.635" y2="2.286" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-2.286" x2="0.635" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-2.286" x2="2.54" y2="-0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="-0.381" x2="2.54" y2="0.381" width="0.127" layer="21"/>
+<pad name="P$1" x="-1.651" y="0" drill="0.635" diameter="1.143"/>
+<pad name="P$2" x="1.651" y="0" drill="0.635" diameter="1.143"/>
+<text x="-1.778" y="2.54" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.159" y="-3.429" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.27" y="0" size="0.4064" layer="33" ratio="10">&gt;NAME</text>
+</package>
+<package name="5528">
+<wire x1="2.4384" y1="0.4064" x2="2.4384" y2="-0.4064" width="0.127" layer="21"/>
+<wire x1="2.4384" y1="-0.4064" x2="0.6604" y2="-2.1844" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.6604" y1="-2.1844" x2="-0.6604" y2="-2.1844" width="0.127" layer="21"/>
+<wire x1="-0.6604" y1="-2.1844" x2="-2.4384" y2="-0.4064" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.4384" y1="-0.4064" x2="-2.4384" y2="0.4064" width="0.127" layer="21"/>
+<wire x1="-2.4384" y1="0.4064" x2="-0.6604" y2="2.1844" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.6604" y1="2.1844" x2="0.6604" y2="2.1844" width="0.127" layer="21"/>
+<wire x1="0.6604" y1="2.1844" x2="2.4384" y2="0.4064" width="0.127" layer="21" curve="-90"/>
+<pad name="1" x="-1.651" y="0" drill="0.762" diameter="1.397" shape="square"/>
+<pad name="2" x="1.651" y="0" drill="0.762" diameter="1.397"/>
+<text x="-3.81" y="2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-4.445" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.4384" y1="-2.1844" x2="2.4384" y2="2.1844" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="R-PHOTOVARISTOR">
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<text x="-8.89" y="0" size="1.27" layer="104" ratio="10">&gt;NAME</text>
+<text x="3.81" y="0" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<pin name="P$1" x="-6.35" y="0" visible="off" length="short"/>
+<pin name="P$2" x="6.35" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="-1.905" y1="3.175" x2="-0.635" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.175" x2="1.27" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="1.905" x2="-0.635" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="1.905" x2="-1.27" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.905" x2="0.635" y2="1.905" width="0.1524" layer="94"/>
+<text x="-8.89" y="0" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="R-PHOTOVARISTOR" prefix="R" uservalue="yes">
+<description>Photovaristor</description>
+<gates>
+<gate name="G$1" symbol="R-PHOTOVARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="'0546'" package="0546/3.3">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="5528">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7873,16 +7836,16 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="H6" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H7" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H8" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="3.5MM-NO_SILK"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="3.5MM-NO_SILK"/>
-<part name="PR1" library="SparkFun-Sensors" deviceset="PHOTOCELL" device="PTH-KIT"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="2.54MM_SCREWTERM"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="2.54MM_SCREWTERM"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
-<part name="PR2" library="SparkFun-Sensors" deviceset="PHOTOCELL" device="PTH-KIT"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="SparkFun-Electromechanical" deviceset="LOGO" device=""/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
+<part name="R5" library="Discrete" deviceset="R-PHOTOVARISTOR" device="'0546'"/>
+<part name="R6" library="Discrete" deviceset="R-PHOTOVARISTOR" device="'0546'"/>
 </parts>
 <sheets>
 <sheet>
@@ -7911,7 +7874,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="P+7" gate="VCC" x="48.26" y="73.66"/>
 <instance part="D2" gate="G$1" x="55.88" y="33.02" rot="R90"/>
 <instance part="P+11" gate="VCC" x="147.32" y="0"/>
-<instance part="P+12" gate="VCC" x="147.32" y="-12.7"/>
+<instance part="P+12" gate="VCC" x="147.32" y="-20.32"/>
 <instance part="P+13" gate="VCC" x="99.06" y="60.96"/>
 <instance part="J3-1" gate="G$1" x="71.12" y="81.28"/>
 <instance part="P+4" gate="VCC" x="78.74" y="86.36"/>
@@ -7922,22 +7885,22 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="C3" gate="G$1" x="88.9" y="58.42" rot="R90"/>
 <instance part="GND10" gate="1" x="83.82" y="55.88"/>
 <instance part="P+1" gate="VCC" x="91.44" y="68.58"/>
-<instance part="D1" gate="G$1" x="154.94" y="-2.54" rot="R180"/>
-<instance part="D4" gate="G$1" x="154.94" y="-15.24" rot="R180"/>
+<instance part="D1" gate="G$1" x="157.48" y="-2.54" rot="R180"/>
+<instance part="D4" gate="G$1" x="157.48" y="-20.32" rot="R180"/>
 <instance part="H5" gate="G$1" x="149.86" y="78.74"/>
 <instance part="H6" gate="G$1" x="149.86" y="73.66"/>
 <instance part="H7" gate="G$1" x="149.86" y="68.58"/>
 <instance part="H8" gate="G$1" x="149.86" y="63.5"/>
-<instance part="JP1" gate="G$1" x="154.94" y="5.08" rot="R270"/>
-<instance part="JP2" gate="G$1" x="154.94" y="-7.62" rot="R270"/>
-<instance part="PR1" gate="G$1" x="40.64" y="48.26" rot="R90"/>
+<instance part="JP1" gate="G$1" x="157.48" y="-12.7" rot="R90"/>
+<instance part="JP2" gate="G$1" x="157.48" y="-30.48" rot="R90"/>
 <instance part="J1" gate="J$1" x="20.32" y="50.8"/>
-<instance part="PR2" gate="G$1" x="55.88" y="48.26" rot="R90"/>
 <instance part="JP3" gate="G$1" x="109.22" y="76.2"/>
 <instance part="P+2" gate="VCC" x="111.76" y="86.36"/>
 <instance part="GND3" gate="1" x="111.76" y="76.2"/>
 <instance part="U$1" gate="G$1" x="33.02" y="86.36"/>
 <instance part="R2" gate="G$1" x="160.02" y="35.56" rot="R90"/>
+<instance part="R5" gate="G$1" x="40.64" y="48.26" rot="R90"/>
+<instance part="R6" gate="G$1" x="55.88" y="48.26" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8033,19 +7996,19 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <net name="VCC" class="0">
 <segment>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
-<wire x1="154.94" y1="-2.54" x2="152.4" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="152.4" y1="-2.54" x2="147.32" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="152.4" y="-2.54"/>
+<wire x1="154.94" y1="-5.08" x2="147.32" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<junction x="154.94" y="-5.08"/>
+<wire x1="154.94" y1="-5.08" x2="154.94" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+12" gate="VCC" pin="VCC"/>
-<wire x1="154.94" y1="-15.24" x2="152.4" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="152.4" y1="-15.24" x2="147.32" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="152.4" y="-15.24"/>
+<wire x1="154.94" y1="-22.86" x2="147.32" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<junction x="154.94" y="-22.86"/>
+<wire x1="154.94" y1="-22.86" x2="154.94" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="58.42" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
@@ -8107,11 +8070,12 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <label x="147.32" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="157.48" y1="-2.54" x2="165.1" y2="-2.54" width="0.1524" layer="91"/>
 <label x="165.1" y="-2.54" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<junction x="157.48" y="-2.54"/>
+<wire x1="165.1" y1="-2.54" x2="157.48" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<junction x="157.48" y="-5.08"/>
+<wire x1="157.48" y1="-5.08" x2="160.02" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LOAD2-" class="0">
@@ -8121,11 +8085,12 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="Q1" gate="G$1" pin="D"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="-15.24" x2="157.48" y2="-15.24" width="0.1524" layer="91"/>
-<label x="165.1" y="-15.24" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="-20.32" x2="160.02" y2="-20.32" width="0.1524" layer="91"/>
+<label x="165.1" y="-20.32" size="1.778" layer="95"/>
 <pinref part="D4" gate="G$1" pin="A"/>
-<junction x="157.48" y="-15.24"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<junction x="160.02" y="-20.32"/>
+<wire x1="160.02" y1="-20.32" x2="157.48" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="555_DISCH" class="0">
@@ -8149,9 +8114,11 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="VR" gate="G$1" pin="E"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="55.88" y1="35.56" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="PR2" gate="G$1" pin="P$1"/>
-<wire x1="55.88" y1="40.64" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="40.64" x2="55.88" y2="41.91" width="0.1524" layer="91"/>
 <junction x="55.88" y="38.1"/>
+<pinref part="R6" gate="G$1" pin="P$1"/>
+<wire x1="55.88" y1="41.91" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<junction x="55.88" y="41.91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -8159,15 +8126,19 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="VR" gate="G$1" pin="A"/>
 <wire x1="40.64" y1="35.56" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="PR1" gate="G$1" pin="P$1"/>
-<wire x1="40.64" y1="38.1" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="38.1" x2="40.64" y2="41.91" width="0.1524" layer="91"/>
 <junction x="40.64" y="38.1"/>
+<pinref part="R5" gate="G$1" pin="P$1"/>
+<wire x1="40.64" y1="41.91" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<junction x="40.64" y="41.91"/>
 </segment>
 </net>
 <net name="PR1" class="0">
 <segment>
-<pinref part="PR1" gate="G$1" pin="P$2"/>
-<wire x1="40.64" y1="55.88" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="55.88" x2="40.64" y2="54.61" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="P$2"/>
+<wire x1="40.64" y1="54.61" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
+<junction x="40.64" y="54.61"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J$1" pin="1"/>
@@ -8176,8 +8147,10 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </net>
 <net name="PR2" class="0">
 <segment>
-<pinref part="PR2" gate="G$1" pin="P$2"/>
-<wire x1="55.88" y1="55.88" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="55.88" x2="55.88" y2="54.61" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="P$2"/>
+<wire x1="55.88" y1="54.61" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<junction x="55.88" y="54.61"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J$1" pin="3"/>
